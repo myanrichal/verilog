@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1558126185">
+  <File Type="VDS-TIMING-PB" Name="counter_verilog_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="counter_verilog_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="counter_verilog.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="counter_verilog_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="counter_verilog_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="counter_verilog_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="counter_verilog.vds"/>
+  <File Type="REPORTS-TCL" Name="counter_verilog_reports.tcl"/>
+  <File Type="PA-TCL" Name="counter_verilog.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/counter_verilog.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="counter_verilog"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/counter_pins.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

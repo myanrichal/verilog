@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ryan/vivado/counter_verilog/counter_verilog.srcs/sources_1/new/counter_verilog.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_verilog
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'ledout' is not allowed [/home/ryan/vivado/counter_verilog/counter_verilog.srcs/sources_1/new/counter_verilog.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ryan/vivado/counter_verilog/counter_verilog.srcs/sim_1/new/counter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_tb

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon May 20 15:34:39 2019
+# Process ID: 27617
+# Current directory: /home/ryan/vivado
+# Command line: wbtcv -mode batch -source /home/ryan/vivado/Seven_Segment_Part_2/Seven_Segment_Part_2.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: /home/ryan/vivado/webtalk.log
+# Journal file: /home/ryan/vivado/webtalk.jou
+#-----------------------------------------------------------
+source /home/ryan/vivado/Seven_Segment_Part_2/Seven_Segment_Part_2.hw/webtalk/labtool_webtalk.tcl -notrace

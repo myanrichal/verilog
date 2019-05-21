@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue May 21 19:08:28 2019
+# Process ID: 26795
+# Current directory: /home/ryan/vivado/Seven_Segment_Part_3/Seven_Segment_Part_3.runs/impl_1
+# Command line: vivado -log Seven_Segment_III.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Seven_Segment_III.tcl -notrace
+# Log file: /home/ryan/vivado/Seven_Segment_Part_3/Seven_Segment_Part_3.runs/impl_1/Seven_Segment_III.vdi
+# Journal file: /home/ryan/vivado/Seven_Segment_Part_3/Seven_Segment_Part_3.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source Seven_Segment_III.tcl -notrace
